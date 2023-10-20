@@ -1,0 +1,51 @@
+//Jazveer Kaler
+//Student List
+// 10/16/2023
+
+#include <iostream>
+#include <cstring>
+#include <vector>
+
+using namespace std;
+
+struct students {
+  char firstName[15];
+  char lastName[15];
+  int studentID;
+  float gpa; 
+};
+
+int main () {
+  bool running = true;
+  char command[15]; 
+  while (running == true) {
+    cout << "Type in a command: ADD, PRINT, DELETE, or QUIT " << endl;
+    cin.get(command, 16)
+    cin.ignore(16. '\n')
+
+      if (strcmp(commmand, "PRINT") == 0) {
+
+      }
+          if (strcmp(commmand, "PRINT") == 0) {
+
+      }      if (strcmp(commmand, "PRINT") == 0) {
+
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  return 0;
+}
